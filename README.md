@@ -103,4 +103,9 @@ terraform plan
 terraform apply
 ```
 
+## ☸️ Create EKS Cluster
+```
+eksctl create cluster --name traveltales-cluster --region ap-south-1
+```
+
 
