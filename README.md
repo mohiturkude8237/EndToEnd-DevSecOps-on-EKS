@@ -79,6 +79,7 @@ ArgoCD continuously monitors GitHub repo and syncs the application with EKS clus
 
 ## 🌐 Application Output
 Application successfully deployed on AWS EKS.
+
 ![Application-Output](Images/application-output.png)
 
 
