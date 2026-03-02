@@ -20,7 +20,7 @@ resource "aws_security_group" "allow_user_to_connect" {
   }
 
   egress {
-    description = " allow all outgoing traffics "
+    description = " allow all outgoing traffic"
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
