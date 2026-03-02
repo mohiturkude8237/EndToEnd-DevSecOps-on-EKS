@@ -57,4 +57,6 @@ When code is pushed to GitHub:
 
 - Scans image using Trivy
 
-- Pushes image to DockerHub  
+- Pushes image to DockerHub
+
+![CI-Pipeline](Images/traveltales-ci-pipeline.png)
