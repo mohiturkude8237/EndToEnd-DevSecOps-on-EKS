@@ -107,5 +107,14 @@ terraform apply
 ```
 eksctl create cluster --name traveltales-cluster --region ap-south-1
 ```
+## 🐳 Docker Commands
+Build image:
+```
+docker build -t app-image .
+```
+Push to DockerHub:
+```
+docker push username/app-image
+```
 
 
