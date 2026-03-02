@@ -82,4 +82,12 @@ Application successfully deployed on AWS EKS.
 
 ![Application-Output](Images/application-output.png)
 
+## 📊 Monitoring Setup
+Prometheus & Grafana installed using Helm charts for:
+
+- Cluster health
+
+- Application performance
+
+- Resource usage
 
