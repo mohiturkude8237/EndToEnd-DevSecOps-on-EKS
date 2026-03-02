@@ -61,4 +61,10 @@ When code is pushed to GitHub:
 
 ![CI-Pipeline](images/traveltales-ci-pipeline.png)
 
+## 🚀 CD Pipeline
 
+- Jenkins updates the new image version
+
+- GitOps flow is triggered
+
+- ArgoCD deploys the application to EKS automatically
