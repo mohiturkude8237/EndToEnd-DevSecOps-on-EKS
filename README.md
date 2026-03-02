@@ -121,4 +121,16 @@ Run Trivy scan:
 ```
 trivy image username/app-image
 ```
-
+## 🔄 ArgoCD Setup
+Create namespace:
+```
+kubectl create namespace argocd
+```
+Install ArgoCD:
+```
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+```
+Check pods:
+```
+kubectl get pods -n argocd
+```
