@@ -116,5 +116,9 @@ Push to DockerHub:
 ```
 docker push username/app-image
 ```
-
+## 🔍 Security Scanning
+Run Trivy scan:
+```
+trivy image username/app-image
+```
 
