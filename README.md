@@ -68,3 +68,9 @@ When code is pushed to GitHub:
 - GitOps flow is triggered
 
 - ArgoCD deploys the application to EKS automatically
+
+![CD-Pipeline](images/traveltales-cd-pipeline.png)
+
+
+
+
