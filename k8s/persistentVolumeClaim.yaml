@@ -5,7 +5,7 @@ metadata:
   namespace: 
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteOnc
   storageClassName: ""
   resources:
     requests:
