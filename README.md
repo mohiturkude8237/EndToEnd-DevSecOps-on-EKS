@@ -90,5 +90,6 @@ Prometheus & Grafana installed using Helm charts for:
 - Application performance
 
 - Resource usage
+
 ![Grafana Dashboard](Images/grafana-dashboard.png)
 
