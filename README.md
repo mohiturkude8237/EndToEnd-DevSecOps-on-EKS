@@ -59,4 +59,6 @@ When code is pushed to GitHub:
 
 - Pushes image to DockerHub
 
-![CI-Pipeline](Images/traveltales-ci-pipeline.png)
+![CI-Pipeline](images/traveltales-ci-pipeline.png)
+
+
