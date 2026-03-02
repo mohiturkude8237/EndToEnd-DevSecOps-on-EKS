@@ -75,12 +75,12 @@ When code is pushed to GitHub:
 
 ArgoCD continuously monitors GitHub repo and syncs the application with EKS cluster.
 
-![ArgoCD status](Images/traveltales-argocd-sync-status.png)
+![ArgoCD status](images/traveltales-argocd-sync-status.png)
 
 ## 🌐 Application Output
 Application successfully deployed on AWS EKS.
 
-![Application-Output](Images/application-output.png)
+![Application-Output](images/application-output.png)
 
 ## 📊 Monitoring Setup
 Prometheus & Grafana installed using Helm charts for:
@@ -91,9 +91,9 @@ Prometheus & Grafana installed using Helm charts for:
 
 - Resource usage
 
-![Grafana Dashboard](Images/grafana-dashboard.png)
+![Grafana Dashboard](images/grafana-dashboard.png)
 
-![Prometheus Target Health](Images/prometheus-target-health-screenshot.png)
+![Prometheus Target Health](images/prometheus-target-health-screenshot.png)
 
 ## 🛠 Infrastructure Setup using Terraform
 Terraform was used to create EC2 infrastructure.
