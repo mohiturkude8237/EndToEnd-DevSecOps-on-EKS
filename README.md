@@ -134,3 +134,18 @@ Check pods:
 ```
 kubectl get pods -n argocd
 ```
+
+## 📈 Monitoring using Helm
+Install Helm:
+```
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+```
+Add repo:
+```
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+```
+Install Prometheus & Grafana:
+```
+kubectl create namespace monitoring
+helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
+```
