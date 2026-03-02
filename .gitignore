@@ -5,4 +5,3 @@ yarn-error.log*
 .pnpm-debug.log*
 dist/
 .env
-.env ex
