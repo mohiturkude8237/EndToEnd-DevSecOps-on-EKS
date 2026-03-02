@@ -149,3 +149,6 @@ Install Prometheus & Grafana:
 kubectl create namespace monitoring
 helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 ```
+## 🧹 Clean Up
+Delete cluster:
+eksctl delete cluster --name traveltales --region ap-south-1
