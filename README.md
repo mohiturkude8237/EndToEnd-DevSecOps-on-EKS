@@ -152,3 +152,17 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 ## 🧹 Clean Up
 Delete cluster:
 eksctl delete cluster --name traveltales --region ap-south-1
+
+## 📌 Conclusion
+
+This project helped me understand real-world DevSecOps workflow including:
+
+- Infrastructure automation
+
+- CI/CD pipelines
+
+- Security integration
+
+- GitOps deployment
+
+- Kubernetes monitoring
